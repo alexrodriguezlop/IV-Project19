@@ -7,16 +7,15 @@ Repository for the virtual infrastructure subject project
 
 
 ### Query tracking numbers
-  > This service would consist of returning the status of an order from a query in the DB.
+  This service would consist of returning the status of an order from a query in the DB.
 
 ### check the weather
-  >> This service would consist of returning the weather status from a query on an external site or DB.
+  This service would consist of returning the weather status from a query on an external site or DB.
 
 ### check zone information
-  This service would consist of returning information about something from a query on an external site or DB using a postal code as a parameter.
+  This service would consist of returning information about something from a query on an external site or DB using a postal code as a   parameter.
 
 ### check restaurant rating
   This service would consist of returning information on the valuation of a restaurant from a query on an external site or DB using the site name as a parameter.
 
 
-*All projects have a similar structure with what the structure could be something similar to what is seen in the image:*
