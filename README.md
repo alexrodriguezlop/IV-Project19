@@ -6,8 +6,8 @@ Repository for the virtual infrastructure subject project
 ## possible projects:
 
 
-### Query tracking numbers
-  This service would consist of returning the status of an order from a query in the DB.
+### ~Query tracking numbers~
+  ~This service would consist of returning the status of an order from a query in the DB.~
 
 ### check the weather
   This service would consist of returning the weather status from a query on an external site or DB.
