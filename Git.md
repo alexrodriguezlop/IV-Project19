@@ -55,8 +55,8 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 **~ 1** *Especifica el commit al que revertiremos. Tenemos que tener en cuenta que los commit estan en lista y parte de 0.*
 
 **por ejemplo:**
-	-para deshacer el último utilizaríamos 1 (para saltar el 0)
-	-para deshacer el penúltimo utilizaríamos 2 (para saltar el 0 y el 1)
+- para deshacer el último utilizaríamos 1 (para saltar el 0)
+- para deshacer el penúltimo utilizaríamos 2 (para saltar el 0 y el 1)
 
 
 ### Deshacer el último commit después de realizar el *push*
