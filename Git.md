@@ -48,9 +48,9 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 ### Deshacer el último commit si aun no se ha realizado el *push*
 `git reset --hard/--soft HEAD~1`
 
-**--head:** *Con esta opción estamos indicando que retrocedemos a el comit HEAD~1 y perdemos todas las confirmaciones posteriores. HEAD~1 es un atajo para apuntar al commit anterior al que nos encontramos. CUIDADO, con la opcion –head, ya que como he dicho se borran todos los commits posteriores al commit al que indicamos.*
+**--head:** *Con esta opción estamos indicando que retrocedemos a el comit HEAD ~ 1 y perdemos todas las confirmaciones posteriores. HEAD ~ 1 es un atajo para apuntar al commit anterior al que nos encontramos. CUIDADO, con la opcion –head, ya que como he dicho se borran todos los commits posteriores al commit al que indicamos.*
 
-**--soft:** *con esta opción estamos indicando que retrocedemos a el commit HEAD~1 y no perdemos los cambios de los commits posteriores. Todos los cambios aparecerán como pendientes para realizar un commit.*
+**--soft:** *con esta opción estamos indicando que retrocedemos a el commit HEAD ~ 1 y no perdemos los cambios de los commits posteriores. Todos los cambios aparecerán como pendientes para realizar un commit.*
 
 
 ### Deshacer el último commit después de realizar el *push*
