@@ -18,4 +18,10 @@ Repository for the virtual infrastructure subject project
 ### check restaurant rating
   This service would consist of returning information on the valuation of a restaurant from a query on an external site or DB using the site name as a parameter.
 
+### Convert HTML to PDF using XHTML2PDF, Based in PISA library.
+  This service would consist of returning a pdf based in a previus HTML file.
 
+
+
+
+[Basic Comand GIT](https://github.com/alexrodriguezlop/IV-Proyect/blob/master/Git.md)
