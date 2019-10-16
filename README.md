@@ -7,7 +7,7 @@ Repository for the virtual infrastructure subject project
 
 ## Description of service
 
- This service would consist of returning the status of an order from a query in the DB.
+This service would consist of returning the status of an order from a query in the DB.
 
 We have a database that contains numbers corresponding to the shipping process. In addition to the status of these and additional information.
 
@@ -22,7 +22,7 @@ We have a database that contains numbers corresponding to the shipping process. 
 - **Github** Version control
 - **Docker**	
 - **Vagrant** 
-- **gh-pages** Docs https://developer.mozilla.org/es/docs/Learn/Using_Github_pageshttps://developer.mozilla.org/es/docs/Learn/Using_Github_pages
+- **gh-pages** Web doc 
 
 ## Requirements
 - API RESTful.
