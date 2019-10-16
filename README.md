@@ -1,9 +1,7 @@
 # IV-Proyect
 Repository for the virtual infrastructure subject project
 
-Query tracking numbers
-===
-
+# Query tracking numbers
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
 
@@ -24,13 +22,14 @@ We have a database that contains numbers corresponding to the shipping process. 
 - **Github** Version control
 - **Docker**	
 - **Vagrant** 
+- **gh-pages** Docs https://developer.mozilla.org/es/docs/Learn/Using_Github_pageshttps://developer.mozilla.org/es/docs/Learn/Using_Github_pages
 
 ## Requirements
-- La interacción con los microservicios se realizará mediante una API RESTful.
+- API RESTful.
 
 # links of interest
 
-[Documentación de FLASK]()
+[Documentación de FLASK](https://flask.palletsprojects.com/en/0.12.x/)
 
 [Documentación Propia del proyecto]()
 
