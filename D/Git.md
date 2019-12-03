@@ -64,9 +64,22 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 
 *realiza un nuevo commit que borra el commit que queremos eliminar utilizando el comando revert.*
 
+### Establecer datos a un directorio
+`git config user.name "Mona Lisa"`
+
+`git config user.email "Monalisa@correo.ugr.es"`
+
+Para consultar los datos:
+
+`git config user.name`
+
+`git config user.email `
+
 ## Enlaces de interés
 
 [Guía sencilla GIT](https://rogerdudler.github.io/git-guide/index.es.html)
+
+[Algunos comandos GIT](https://help.github.com/en/github/using-git/setting-your-username-in-git)
 
 [Guía GIT JJ](https://github.com/JJ/IV-19-20/blob/master/objetivos/README.md)
 
