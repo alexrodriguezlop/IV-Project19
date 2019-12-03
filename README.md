@@ -12,8 +12,6 @@ This service would consist of returning the status of an order from a query in t
 We have a database that contains numbers corresponding to the shipping process. In addition to the status of these and additional information.
 
 
-We have a database that contains numbers corresponding to the shipping process. In addition to the status of these and additional information
-
 ## Tools
 
 - **FLASk**	Framework
