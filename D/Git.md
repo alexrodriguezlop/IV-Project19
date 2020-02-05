@@ -7,6 +7,19 @@
 
 *Añadimos un repositorio remoto*
 
+
+#### Establecer nombre y email en un repositorio
+`git config user.name "Mona Lisa"`
+
+`git config user.email "Monalisa@correo.ugr.es"`
+
+Para consultar los datos:
+
+`git config user.name`
+
+`git config user.email `
+
+
 #### Consultar repositorios
 `git remote -v`
 
@@ -64,16 +77,6 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 
 *realiza un nuevo commit que borra el commit que queremos eliminar utilizando el comando revert.*
 
-### Establecer datos a un directorio
-`git config user.name "Mona Lisa"`
-
-`git config user.email "Monalisa@correo.ugr.es"`
-
-Para consultar los datos:
-
-`git config user.name`
-
-`git config user.email `
 
 ## Enlaces de interés
 
