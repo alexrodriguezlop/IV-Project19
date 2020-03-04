@@ -1,8 +1,8 @@
 # Mini Guia de GIT
 
-##Por donde empezar
+## Por donde empezar
 
-####Instalando git
+#### Instalando git
 `sudo apt-get install git`
 
 #### Clonar un repositorio remoto
