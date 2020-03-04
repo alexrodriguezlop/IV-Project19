@@ -19,7 +19,7 @@ Para consultar los datos:
 
 `git config user.email `
 
-####Especifica un nuevo repositorio ascendente remoto que se sincronizará con la bifurcación.
+#### Especifica un nuevo repositorio ascendente remoto que se sincronizará con la bifurcación.
 `git remote add upstream https://github.com/JJ/IV-19-20.git`
 
 #### Consultar repositorios
