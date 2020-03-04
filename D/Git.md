@@ -1,6 +1,7 @@
 # Mini Guia de GIT
 
 ##Por donde empezar
+
 ####Instalando git
 `sudo apt-get install git`
 
@@ -84,13 +85,22 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 
 ##Esquemas de funcionamiento en git
 ![git-fork-clone-flow](git-fork-clone-flow.png)
+
 ![git-fork-loop](git-fork-loop.png)
+
+
 ## Enlaces de interés
 [Fork git y repos remotos1](https://www.neonscience.org/git-setup-remote)
+
 [Fork git y repos remotos2](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+
 [Guía sencilla GIT](https://rogerdudler.github.io/git-guide/index.es.html)
+
 [Algunos comandos GIT](https://help.github.com/en/github/using-git/setting-your-username-in-git)
+
 [Guía GIT JJ](https://github.com/JJ/IV-19-20/blob/master/objetivos/README.md)
+
 [Guía sencilla MARKDOWN](https://markdown.es/sintaxis-markdown/)
+
 **[Volver a INICIO](https://github.com/alexrodriguezlop/IV-Proyect/blob/master/README.md)**
 === 
