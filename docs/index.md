@@ -18,10 +18,59 @@ que el servicio evolucione y escale en caso de ser necesario.
 
 ## Requisitos
 
+
 ## Instalación 
 
+#### Vagrant
+
+```
+vagrant init bento/ubuntu-18.04
+	vagrant up
+	vagrant ssh
+    
+sudo ln -sfn /usr/bin/python3.6 /usr/bin/python
+python --version
+
+
+
+```
+
+### Ubuntu 18
+```
+sudo apt-get install python3-pip
+
+```
+
+##### Creación de requirements.txt
+`pip3 install -r requirements.txt`
+
+Requeriments.txt:
+```
+Flask
+Pillow
+jinja2
+pickleshare
+pymongo
+pytest
+```
+
+@[](https://pip.pypa.io/en/stable/user_guide/#requirements-files)
+
+
+###Uso de mongoDB
+instalar MongoDB y Pymongo en Ubuntu Server:
+```
+$ sudo apt-get install mongodb
+
+```
+
+
 ## Uso
+### Arranque y parada del servicio
+
+
 
 ## Solución de problemas
+
 
 ## Requisitos

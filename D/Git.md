@@ -1,12 +1,11 @@
 # Mini Guia de GIT
 
-## Comandos básicos
+##Por donde empezar
+####Instalando git
+`sudo apt-get install git`
 
-#### Añadir un repositorio remoto
-`git remote add upstream https://github.com/JJ/IV-19-20.git`
-
-*Añadimos un repositorio remoto*
-
+#### Clonar un repositorio remoto
+`git clone https://github.com/YOUR_USERNAME/YOUR_FORK.git`
 
 #### Establecer nombre y email en un repositorio
 `git config user.name "Mona Lisa"`
@@ -19,6 +18,8 @@ Para consultar los datos:
 
 `git config user.email `
 
+####Especifica un nuevo repositorio ascendente remoto que se sincronizará con la bifurcación.
+`git remote add upstream https://github.com/JJ/IV-19-20.git`
 
 #### Consultar repositorios
 `git remote -v`
@@ -39,11 +40,15 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 
 `git commit -m "Comentario"`
 
-
 ##### Combinando Gitt ADD y Git Commit
 `git commit -a -m "Actualizados objetivos semana1"`
 
 *Usando este comando lo haríamos todo de una vez*
+
+##### Cerrando un Isue con el commit
+`git commit -m "Comentario close #NumIsue "`
+
+
 
 #### Interfaz gráfica 
 `gitk`
@@ -77,16 +82,15 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 
 *realiza un nuevo commit que borra el commit que queremos eliminar utilizando el comando revert.*
 
-
+##Esquemas de funcionamiento en git
+![git-fork-clone-flow](git-fork-clone-flow.png)
+![git-fork-loop](git-fork-loop.png)
 ## Enlaces de interés
-
+[Fork git y repos remotos1](https://www.neonscience.org/git-setup-remote)
+[Fork git y repos remotos2](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 [Guía sencilla GIT](https://rogerdudler.github.io/git-guide/index.es.html)
-
 [Algunos comandos GIT](https://help.github.com/en/github/using-git/setting-your-username-in-git)
-
 [Guía GIT JJ](https://github.com/JJ/IV-19-20/blob/master/objetivos/README.md)
-
 [Guía sencilla MARKDOWN](https://markdown.es/sintaxis-markdown/)
-
 **[Volver a INICIO](https://github.com/alexrodriguezlop/IV-Proyect/blob/master/README.md)**
 === 

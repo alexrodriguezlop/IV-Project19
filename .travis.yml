@@ -7,4 +7,4 @@ install:
     - pip3 install -r requirements.txt
     
 test:
-  - cd ./app/ && pytest test.py
+  - cd ./app && pytest test.py
