@@ -62,6 +62,29 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 #### Desde mi repositorio en GitHub Remoto crear NEW PULL REQUEST
 *Para hacer un PR al repositorio del cual se hizo el fork haremos el PR desde GitHub en nuestro repositorio*
 
+##TAGS
+
+####Listando etiquetas:
+`git tag`
+
+####Buscando etiquetas:
+`git tag -l "v1.*"`
+
+####Creando etiquetas:
+`git tag -a v1.4 -m "my version 1.4"`
+	
+Añade etiqueta y descripción.
+
+####Consultar datos de una etiqueta:
+`git show v1.4`
+
+####Push de etiquetas:
+`git push origin <tagname>`
+
+####Eliminar etiquetas:
+`$ git tag -d v1.4-lw`
+
+Tambiem podemos usar el atributo `--tags` para que el push afecte a todas.
 ## Resolución de problemas
 
 ### Deshacer el último commit si aun no se ha realizado el *push*
@@ -90,6 +113,12 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 
 
 ## Enlaces de interés
+[Etiquetas](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+
+[Rebase](https://stackoverflow.com/questions/18930527/difference-between-git-pull-and-git-pull-rebase)
+
+[Merge & rebase](https://stackoverflow.com/questions/16666089/whats-the-difference-between-git-merge-and-git-rebase/16666418#16666418)
+
 [Fork git y repos remotos1](https://www.neonscience.org/git-setup-remote)
 
 [Fork git y repos remotos2](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
@@ -99,6 +128,8 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 [Algunos comandos GIT](https://help.github.com/en/github/using-git/setting-your-username-in-git)
 
 [Guía GIT JJ](https://github.com/JJ/IV-19-20/blob/master/objetivos/README.md)
+
+[Usando hooks](https://www.hostinger.es/tutoriales/como-usar-git-hooks/)
 
 [Guía sencilla MARKDOWN](https://markdown.es/sintaxis-markdown/)
 
