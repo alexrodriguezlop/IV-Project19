@@ -2,6 +2,8 @@
 
 ## Por donde empezar
 
+#### usando ssh
+
 #### Instalando git
 `sudo apt-get install git`
 
@@ -106,7 +108,7 @@ Tambiem podemos usar el atributo `--tags` para que el push afecte a todas.
 
 *realiza un nuevo commit que borra el commit que queremos eliminar utilizando el comando revert.*
 
-##Esquemas de funcionamiento en git
+## Esquemas de funcionamiento en git
 ![git-fork-clone-flow](git-fork-clone-flow.png)
 
 ![git-fork-loop](git-fork-loop.png)
