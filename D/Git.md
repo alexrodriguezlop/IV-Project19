@@ -64,26 +64,26 @@ De este modo no habrá ningún conflicto cuando modifiquemos nuestros ficheros l
 #### Desde mi repositorio en GitHub Remoto crear NEW PULL REQUEST
 *Para hacer un PR al repositorio del cual se hizo el fork haremos el PR desde GitHub en nuestro repositorio*
 
-##TAGS
+## TAGS
 
-####Listando etiquetas:
+#### Listando etiquetas:
 `git tag`
 
-####Buscando etiquetas:
+#### Buscando etiquetas:
 `git tag -l "v1.*"`
 
-####Creando etiquetas:
+#### Creando etiquetas:
 `git tag -a v1.4 -m "my version 1.4"`
 	
 Añade etiqueta y descripción.
 
-####Consultar datos de una etiqueta:
+#### Consultar datos de una etiqueta:
 `git show v1.4`
 
-####Push de etiquetas:
+#### Push de etiquetas:
 `git push origin <tagname>`
 
-####Eliminar etiquetas:
+#### Eliminar etiquetas:
 `$ git tag -d v1.4-lw`
 
 Tambiem podemos usar el atributo `--tags` para que el push afecte a todas.
