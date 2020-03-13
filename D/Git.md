@@ -96,7 +96,7 @@ Tambiem podemos usar el atributo `--tags` para que el push afecte a todas.
 
 **--soft:** *con esta opción estamos indicando que retrocedemos a el commit HEAD ~ 1 y no perdemos los cambios de los commits posteriores. Todos los cambios aparecerán como pendientes para realizar un commit.*
 
-**~ 1** *Especifica el commit al que revertiremos. Tenemos que tener en cuenta que los commit estan en lista y parte de 0.*
+**~1** *Especifica el commit al que revertiremos. Tenemos que tener en cuenta que los commit estan en lista y parte de 0.*
 
 **por ejemplo:**
 - para deshacer el último utilizaríamos 1 (para saltar el 0)
