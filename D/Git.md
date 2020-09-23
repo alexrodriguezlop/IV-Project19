@@ -2,7 +2,8 @@
 
 ## Por donde empezar
 
-#### usando ssh
+#### Configurando y usando ssh
+Enlace al final
 
 #### Instalando git
 `sudo apt-get install git`
@@ -115,6 +116,8 @@ Tambiem podemos usar el atributo `--tags` para que el push afecte a todas.
 
 
 ## Enlaces de interés
+[Configurara SSH](https://medium.com/@ancizj393/crear-una-clave-ssh-en-git-y-vincular-en-tu-cuenta-de-github-e7a6b22bc93f)
+
 [Etiquetas](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
 [Rebase](https://stackoverflow.com/questions/18930527/difference-between-git-pull-and-git-pull-rebase)
